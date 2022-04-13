@@ -2,9 +2,10 @@
   "name": "e-commerce",
   "version": "1.0.0",
   "description": "E-commerce website, using node.js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start" : "nodemon server.js"
+    "start" : "nodemon server.js",
+    "user" : "nodemon models/user.js"
   },
   "repository": {
     "type": "git",
